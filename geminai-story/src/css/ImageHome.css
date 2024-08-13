@@ -6,7 +6,7 @@
 .image-title1 {
   font-size: 3rem;
   font-weight: bold;
-  font-family: 'NanumSquareNeoExtraBold';
+  font-family: "NanumSquareNeoExtraBold";
 }
 
 .exmaple-text {
@@ -17,7 +17,7 @@
   margin-bottom: 20px;
   display: block;
   color: #33333374;
-  font-family: 'NanumSquareNeoBold';
+  font-family: "NanumSquareNeoBold";
 }
 
 .image-example {
@@ -65,7 +65,7 @@
   border-radius: 5px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
-  font-family: 'NanumSquareNeoBold';
+  font-family: "NanumSquareNeoBold";
 }
 
 .custom-file-upload:hover {
@@ -77,7 +77,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  font-family: 'NanumSquareNeoExtraBold';
+  font-family: "NanumSquareNeoExtraBold";
 }
 
 .image-preview-container {
