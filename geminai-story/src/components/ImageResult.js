@@ -68,8 +68,15 @@ function ImageResult() {
   }, [image, mainCharacter, genre]);
   return (
     <div className="ResultPage">
-      <div className="site-title">SogeumStory</div>
-      <span className=" home-btn" onClick={() => navigate("SogeumStory/")}>
+      <div
+        className="site-title"
+        onClick={() => {
+          navigate("/");
+        }}
+      >
+        SogeumStory
+      </div>
+      <span className=" home-btn" onClick={() => navigate("/")}>
         <i class="medium material-icons">forward</i>
       </span>
       <div className="tag-box">

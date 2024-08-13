@@ -16,7 +16,9 @@ function ImagePreview() {
 
   return (
     <div className="image-preview-container">
-      <div className="site-title">SogeumStory</div>
+      <div className="site-title" onClick={() => {
+          navigate("/");
+        }}>SogeumStory</div>
       <h2 >사진 확인해주세요!</h2>
       <img alt="uploaded Preview" src={image} />
       <div className="preview-btn">

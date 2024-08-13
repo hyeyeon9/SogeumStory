@@ -25,8 +25,10 @@ function ImageStory() {
 
   return (
     <div className="ImageStory">
-      <div className="site-title">SogeumStory</div>
-      <div className="image-title">
+      <div className="site-title" onClick={() => {
+          navigate("/");
+        }}>SogeumStory</div>
+      <div className="image-title1">
         사진으로📷 <br></br>
         자신만의 소설을 만들어봐요!
       </div>

@@ -22,9 +22,11 @@
   font-size: 3rem;
   margin-bottom: 30px;
   font-weight: bold;
+  font-family: "JNE-Bareun-TTF-Bold";
 }
 
 .result-story {
+  font-family: "JNE-Bareun-TTF-Bold";
   font-size: 1.1rem;
   width: 90.5%;
   height: 440px;
@@ -52,7 +54,7 @@
 .loading-bar {
   width: 100%;
   height: 12px;
-  background: linear-gradient(90deg, #5593f7c7, #c75ff7c6);
+  background: linear-gradient(90deg, #5593f77d, #c75ff77d);
   background-size: 200% 100%;
   animation: loading 1.5s infinite;
   border-radius: 4px;

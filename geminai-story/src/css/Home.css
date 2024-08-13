@@ -2,12 +2,17 @@
   padding: 7% 20%;
 }
 
-.site-title{
+.site-title {
   position: absolute;
   top: 3%;
   left: 3%;
   font-size: 22px;
   font-weight: bold;
+  font-family: "JNE-Ttobak-TTF-Extrabold";
+}
+
+.site-title:hover{
+  cursor: pointer;
 }
 
 .homepage-title {
@@ -15,10 +20,11 @@
   font-weight: bold;
   margin-bottom: 50px;
   color: #33333374;
+  font-family: 'NanumSquareNeoHeavy';
 }
 
 .geminai {
-  font-size: 50px !important;
+  font-size: 52px !important;
   font-weight: bold;
   background: linear-gradient(90deg, #5592f7, #c85ff7);
   -webkit-background-clip: text;
@@ -30,13 +36,18 @@
 
 .homepage-title span {
   font-size: 40px;
+  font-family: 'NanumSquareNeoHeavy';
 }
 
 .option-text {
-  font-weight: 600;
-  margin-left: 10px;
+  font-weight: 700;
+  margin-left: 12px;
   display: block;
   color: #33333374;
+  color: white;
+  font-size: 16px;
+  margin-bottom: -5px;
+  font-family: 'goorm-sans-bold'
 }
 
 .options {
@@ -68,13 +79,16 @@
 .card-title {
   font-size: 22px;
   font-weight: 700;
+  font-family: 'NanumSquareNeoExtraBold';
 }
 
 .card-text {
   padding: 0px 5px;
-  padding-top: 10px;
+  padding-top: 13px;
   font-weight: 500;
+  line-height: 1.8;
   height: 60px;
+  font-family: 'NanumSquareNeoBold';
 }
 
 .card-link {
@@ -86,10 +100,58 @@
 
 .card-link a {
   margin-top: 2px;
+  font-family: 'NanumSquareNeo';
   background-color: black;
   transition: all 0.5s linear;
 }
 
 .card-link a:hover {
   background-color: rgba(0, 0, 0, 0.73);
+}
+
+@font-face {
+  font-family: "JNE-Ttobak-TTF-Extrabold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-1@1.0/JNE-Ttobak-TTF-Extrabold.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JNE-Bareun-TTF-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-1@1.0/JNE-Bareun-TTF-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'goorm-sans-bold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/goorm-sans-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumSquareNeoBold';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'NanumSquareNeoExtraBold';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'NanumSquareNeo';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'NanumSquareNeoHeavy';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.ttf) format("truetype");
 }

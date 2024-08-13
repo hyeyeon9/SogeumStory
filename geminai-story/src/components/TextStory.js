@@ -19,7 +19,14 @@ function App() {
 
   return (
     <div className="home-container">
-      <div className="site-title">SogeumStory</div>
+      <div
+        className="site-title"
+        onClick={() => {
+          navigate("/");
+        }}
+      >
+        SogeumStory
+      </div>
       <div className="text-story-title">
         어떤 키워드로 소설을 작성해볼까요?✍
       </div>

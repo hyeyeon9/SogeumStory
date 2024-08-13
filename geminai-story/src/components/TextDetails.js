@@ -27,7 +27,14 @@ function TextDetails() {
 
   return (
     <div className="DetailsPage">
-      <div className="site-title">SogeumStory</div>
+      <div
+        className="site-title"
+        onClick={() => {
+          navigate("/");
+        }}
+      >
+        SogeumStory
+      </div>
       <div className="detail-title">
         좋아요😊
         <br></br>주인공과 장르를 알려주세요!

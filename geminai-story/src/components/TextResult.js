@@ -50,8 +50,15 @@ function TextResult() {
 
   return (
     <div className="ResultPage" id="text-page">
-      <div className="site-title">SogeumStory</div>
-      <span className=" home-btn" onClick={() => navigate("SogeumStory/")}>
+      <div
+        className="site-title"
+        onClick={() => {
+          navigate("/");
+        }}
+      >
+        SogeumStory
+      </div>
+      <span className=" home-btn" onClick={() => navigate("/")}>
         <i class="medium material-icons">forward</i>
       </span>
       <div className="tag-box">
