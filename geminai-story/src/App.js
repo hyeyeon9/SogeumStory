@@ -20,7 +20,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="SogeumStory/" element={<Home />} />
         <Route path="/text-story" element={<TextStory />} />
         <Route path="/text-details" element={<TextDetails />} />
         <Route path="/text-result" element={<TextResult />} />
