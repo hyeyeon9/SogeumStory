@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/SogeumStory/static/css/main.119657dc.css",
-    "main.js": "/SogeumStory/static/js/main.f8eb55fa.js",
-    "static/js/453.3b7a2648.chunk.js": "/SogeumStory/static/js/453.3b7a2648.chunk.js",
-    "static/media/EAT_green.jpg": "/SogeumStory/static/media/EAT_green.fd4fdae5d222bb61be30.jpg",
-    "static/media/Sleeping_cat.jpg": "/SogeumStory/static/media/Sleeping_cat.d8f00e49232070a1c3e1.jpg",
-    "static/media/cat.jpg": "/SogeumStory/static/media/cat.bd2e13607e23f66b8a55.jpg",
-    "index.html": "/SogeumStory/index.html",
-    "main.119657dc.css.map": "/SogeumStory/static/css/main.119657dc.css.map",
-    "main.f8eb55fa.js.map": "/SogeumStory/static/js/main.f8eb55fa.js.map",
-    "453.3b7a2648.chunk.js.map": "/SogeumStory/static/js/453.3b7a2648.chunk.js.map"
+    "main.css": "/static/css/main.119657dc.css",
+    "main.js": "/static/js/main.03c2f5ab.js",
+    "static/js/453.3b7a2648.chunk.js": "/static/js/453.3b7a2648.chunk.js",
+    "static/media/EAT_green.jpg": "/static/media/EAT_green.fd4fdae5d222bb61be30.jpg",
+    "static/media/Sleeping_cat.jpg": "/static/media/Sleeping_cat.d8f00e49232070a1c3e1.jpg",
+    "static/media/cat.jpg": "/static/media/cat.bd2e13607e23f66b8a55.jpg",
+    "index.html": "/index.html",
+    "main.119657dc.css.map": "/static/css/main.119657dc.css.map",
+    "main.03c2f5ab.js.map": "/static/js/main.03c2f5ab.js.map",
+    "453.3b7a2648.chunk.js.map": "/static/js/453.3b7a2648.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.119657dc.css",
-    "static/js/main.f8eb55fa.js"
+    "static/js/main.03c2f5ab.js"
   ]
 }
