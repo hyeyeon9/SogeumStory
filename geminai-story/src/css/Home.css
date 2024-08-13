@@ -1,0 +1,95 @@
+.home-container {
+  padding: 7% 20%;
+}
+
+.site-title{
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.homepage-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #33333374;
+}
+
+.geminai {
+  font-size: 50px !important;
+  font-weight: bold;
+  background: linear-gradient(90deg, #5592f7, #c85ff7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.homepage-title span {
+  font-size: 40px;
+}
+
+.option-text {
+  font-weight: 600;
+  margin-left: 10px;
+  display: block;
+  color: #33333374;
+}
+
+.options {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.options-card {
+  background-color: #f5f7fa;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  transition: all 0.3s ease;
+  width: 50%;
+  line-height: 1.6;
+}
+
+.options-card:hover {
+  background-color: #e3e7ef;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 25px 20px;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.card-text {
+  padding: 0px 5px;
+  padding-top: 10px;
+  font-weight: 500;
+  height: 60px;
+}
+
+.card-link {
+  text-align: right;
+  border-top: 1px rgba(0, 0, 0, 0.3) solid;
+  padding: 15px 20px;
+  margin-top: -5px;
+}
+
+.card-link a {
+  margin-top: 2px;
+  background-color: black;
+  transition: all 0.5s linear;
+}
+
+.card-link a:hover {
+  background-color: rgba(0, 0, 0, 0.73);
+}

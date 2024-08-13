@@ -1,0 +1,59 @@
+.text-story-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.text-story-span {
+  margin-top: 5px;
+  font-size: 20px;
+  margin-left: 2px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+  color: #33333374;
+}
+
+.keyword-tags {
+  display: flex;
+  gap: 20px;
+}
+
+.tag {
+  background: linear-gradient(90deg, #5593f76f, #1a73e827);
+  padding: 5px 15px;
+  font-size: 13px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.text-form-container {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.keyword_btn {
+  text-align: right;
+}
+
+.input-field input[type="text"] {
+  border-bottom: 1px solid grey !important; /* 하단 보더 색상 */
+  box-shadow: 0 1px 0 0 grey !important; /* 하단 보더 활성화 시 그림자 색상 */
+}
+
+.input-field label {
+  color: grey !important; /* 라벨 색상 */
+}
+
+.input-field input[type="text"]:focus + label {
+  color: #5592f7 !important; /* 포커스 시 라벨 색상 */
+}
+
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #5592f7 !important; /* 포커스 시 하단 보더 색상 */
+  box-shadow: 0 1px 0 0 #5592f7 !important; /* 포커스 시 그림자 색상 */
+}
+
+.input-field .prefix {
+  color: #5593f74c !important; /* 기본 아이콘 색상 */
+}
