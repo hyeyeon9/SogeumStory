@@ -1,7 +1,7 @@
 .text-story-title {
   font-size: 3rem;
   font-weight: bold;
-  font-family: 'NanumSquareNeoExtraBold';
+  font-family: "NanumSquareNeoExtraBold";
 }
 
 .text-story-span {
@@ -12,7 +12,7 @@
   margin-bottom: 20px;
   display: block;
   color: #33333374;
-  font-family: 'NanumSquareNeoBold';
+  font-family: "NanumSquareNeoBold";
 }
 
 .keyword-tags {
@@ -21,13 +21,14 @@
 }
 
 .tag {
-  background: linear-gradient(90deg, #5593f76f, #1a73e827);
+  /* background: linear-gradient(90deg, #5593f76f, #1a73e827); */
+  background-color: #e6e6e6;
   padding: 5px 15px;
   font-size: 12px;
   border-radius: 20px;
   font-weight: bold;
   color: black;
-  font-family: 'NanumSquareNeo';
+  font-family: "NanumSquareNeo";
 }
 
 .text-form-container {
@@ -40,10 +41,9 @@
 }
 
 .input-field input[type="text"] {
-  font-family: 'NanumSquareNeo';
+  font-family: "NanumSquareNeo";
   border-bottom: 1px solid grey !important; /* 하단 보더 색상 */
   box-shadow: 0 1px 0 0 grey !important; /* 하단 보더 활성화 시 그림자 색상 */
-
 }
 
 .input-field label {

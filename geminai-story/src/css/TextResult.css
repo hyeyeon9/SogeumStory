@@ -1,28 +1,27 @@
 .ResultPage {
   margin: 2% auto; /* 수평 중앙 정렬 */
-  max-width: 1200px; /* 원하는 최대 너비로 설정 */
+  max-width: 1280px; /* 원하는 최대 너비로 설정 */
   padding: 20px; /* 패딩 추가 */
   text-align: left; /* 텍스트 정렬을 왼쪽으로 */
 }
 
-#text-page{
-  margin-top: 60px;
+#text-page {
+  margin-top: 50px;
 }
 
 .result-page-title {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #33333374;;
+  color: #33333374;
   text-align: center;
 }
 
 .story-title {
   margin-top: 20px;
   font-size: 3rem;
-  margin-bottom: 30px;
-  font-weight: bold;
   font-family: "JNE-Bareun-TTF-Bold";
+  margin-bottom: 20px;
 }
 
 .result-story {
@@ -30,7 +29,7 @@
   font-size: 1.1rem;
   width: 90.5%;
   height: 440px;
-  padding-right: 15px;
+  /* padding-right: 15px; */
   overflow-y: scroll;
   line-height: 1.8;
   text-align: justify;
@@ -83,11 +82,84 @@
 
 /* 스크롤 바의 핸들 (움직이는 부분) */
 .result-story::-webkit-scrollbar-thumb {
-  background: #a1b8d730; /* 핸들의 색상 */
+  background: #a1b8d700; /* 핸들의 색상 */
   border-radius: 10px; /* 핸들의 모서리 둥글게 */
 }
 
 /* 스크롤 바의 핸들에 마우스를 올렸을 때 */
 .result-story::-webkit-scrollbar-thumb:hover {
-  background: #a1b8d73e; /* 마우스를 올렸을 때 핸들의 색상 */
+  background: #a1b8d700; /* 마우스를 올렸을 때 핸들의 색상 */
+}
+
+.like-btn11 {
+  position: absolute;
+  top: 49%;
+  right: 17%;
+}
+
+.like-btn21 {
+  position: absolute;
+  top: 41%;
+  right: 17%;
+}
+
+.like-btn31 {
+  position: absolute;
+  top: 33%;
+  right: 17%;
+}
+
+.next-step {
+  all: unset !important; /* 모든 기본 스타일 초기화 */
+  box-sizing: border-box; /* 레이아웃 문제 방지 */
+  background-color: #f3f3f3 !important;
+  padding: 15px 25px !important;
+  width: 88% !important;
+  border-radius: 30px !important;
+}
+
+.next-step::placeholder {
+  color:rgba(0, 0, 0, 0.248);
+  font-weight: 700;
+}
+
+.next-step-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e6e6e6 !important; /* 기본 상태에서의 배경색 */
+  color: white!important; /* 기본 상태에서의 아이콘 색상 */
+  font-size: 20px; /* 아이콘 크기 */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease; /* 부드러운 전환 효과 */
+  cursor: pointer; /* 클릭할 수 있는 버튼으로 표시 */
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.next-step-btn.active {
+  background-color: #343a40 !important; /* 호버 시 배경색 */
+  color: #ffffff !important; /* 호버 시 아이콘 색상 */
+}
+.next-step-btn:hover{
+  background-color: #343a40 !important; 
+  color: #ffffff !important;
+}
+/* .next-span{
+  display: block;
+
+} */
+
+.next-form {
+  position: relative;
+  width: 100%;
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -30px;
 }

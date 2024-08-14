@@ -57,11 +57,11 @@ function TextDetails() {
           <option value="" disabled>
             장르
           </option>
-          <option value="판타지">
-            <span className="blue-text">판타지</span>
+          <option value="일상물">
+            <span className="blue-text">일상물</span>
           </option>
-          <option value="SF">
-            <span className="blue-text">SF</span>
+          <option value="개그">
+            <span className="blue-text">개그</span>
           </option>
           <option value="로맨스">
             <span className="blue-text">로맨스</span>
@@ -69,8 +69,11 @@ function TextDetails() {
           <option value="스릴러">
             <span className="blue-text">스릴러</span>
           </option>
-          <option value="코미디">
-            <span className="blue-text">코미디</span>
+          <option value="무협/사극">
+            <span className="blue-text">무협/사극</span>
+          </option>
+          <option value="드라마">
+            <span className="blue-text">드라마</span>
           </option>
         </select>
         {/* <label>장르 선택</label> */}

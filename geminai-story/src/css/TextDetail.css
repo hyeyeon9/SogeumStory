@@ -36,7 +36,7 @@ button {
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 16px;
-  font-family: 'NanumSquareNeoExtraBold';
+  font-family: 'NanumSquareNeoBold' !important;
   /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1); 버튼에 약간의 그림자 효과 */
 }
 

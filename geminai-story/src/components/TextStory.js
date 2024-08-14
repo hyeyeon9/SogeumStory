@@ -35,6 +35,7 @@ function App() {
         <div className="tag">#고양이</div>
         <div className="tag">#코딩공부</div>
         <div className="tag">#아이스아메리카노</div>
+        <div className="tag">#모태솔로</div>
       </div>
 
       <div className="text-form-container">
@@ -62,7 +63,7 @@ function App() {
             disabled={!keyword}
           >
             다음
-            <i class="material-icons right">send</i>
+            <i className="material-icons right">send</i>
           </button>
         </div>
         {/* <button onClick={handleNext} disabled={!keyword}>
