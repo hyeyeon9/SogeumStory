@@ -93,19 +93,34 @@
 
 .like-btn11 {
   position: absolute;
-  top: 49%;
+  top: 51%;
   right: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "NanumSquareNeoBold" !important;
 }
 
 .like-btn21 {
   position: absolute;
   top: 41%;
   right: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "NanumSquareNeoBold" !important;
 }
 
 .like-btn31 {
   position: absolute;
-  top: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "NanumSquareNeoBold" !important;
+  top: 31%;
   right: 17%;
 }
 
@@ -119,7 +134,7 @@
 }
 
 .next-step::placeholder {
-  color:rgba(0, 0, 0, 0.248);
+  color: rgba(0, 0, 0, 0.248);
   font-weight: 700;
 }
 
@@ -128,7 +143,7 @@
   height: 40px;
   border-radius: 50%;
   background-color: #e6e6e6 !important; /* 기본 상태에서의 배경색 */
-  color: white!important; /* 기본 상태에서의 아이콘 색상 */
+  color: white !important; /* 기본 상태에서의 아이콘 색상 */
   font-size: 20px; /* 아이콘 크기 */
   box-sizing: border-box;
   display: flex;
@@ -145,8 +160,8 @@
   background-color: #343a40 !important; /* 호버 시 배경색 */
   color: #ffffff !important; /* 호버 시 아이콘 색상 */
 }
-.next-step-btn:hover{
-  background-color: #343a40 !important; 
+.next-step-btn:hover {
+  background-color: #343a40 !important;
   color: #ffffff !important;
 }
 /* .next-span{
@@ -161,5 +176,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -30px;
+  margin-left: -40px;
 }

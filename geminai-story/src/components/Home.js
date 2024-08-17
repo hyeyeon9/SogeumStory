@@ -17,7 +17,6 @@ function Home() {
         <span className="geminai">GeminAI</span>와 함께 <br></br>
         자신만의 이야기를 만들어 보세요!
       </div>
-      <span className="option-text">옵션을 선택하세요</span>
 
       <div className="options">
         <div className="options-card" onClick={() => navigate("/text-story")}>

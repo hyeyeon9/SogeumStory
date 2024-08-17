@@ -122,13 +122,13 @@
   font-family: "JNE-Bareun-TTF-Bold";
 }
 .result-image {
-  width: 400px;
-  height: 240px;
+  width: 350px;
+  height: 200px;
   border-radius: 20px;
   margin-bottom: 0px;
 }
 .image-story {
-  height: 300px;
+  height: 260px;
   line-height: 1.7;
   overflow-y: scroll;
   font-size: 17px;
@@ -164,22 +164,31 @@
   font-weight: bold;
 }
 
-.like-btn1 {
+.like-btn1,
+.like-btn2,
+.like-btn3 {
   position: absolute;
-  top: 49%;
-  right: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "NanumSquareNeoBold" !important;
+  cursor: pointer;
+}
+
+.like-btn1 {
+  top: 42%;
+  right: 20%;
 }
 
 .like-btn2 {
-  position: absolute;
-  top: 41%;
-  right: 18%;
+  top: 32%;
+  right: 20%;
 }
 
 .like-btn3 {
-  position: absolute;
-  top: 33%;
-  right: 18%;
+  top: 22%;
+  right: 20%;
 }
 
 .home-btn {
@@ -195,4 +204,11 @@
   /* color: #5592f7; */
   opacity: 1;
   cursor: pointer;
+}
+.Image-next-form{
+  position: absolute;
+  width: 70%;
+  bottom: 5%;
+  left: 17%;
+  margin-top: -55px;
 }

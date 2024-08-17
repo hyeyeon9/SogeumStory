@@ -16,12 +16,23 @@ function TextResult() {
   const [newStory, setNewStory] = useState("");
   const [newKeywords, setNewKeywords] = useState([]);
 
+  const [likeCount1, setLikeCount1] = useState(0);
+  const [likeCount2, setLikeCount2] = useState(0);
+  const [disLikeCount, setDisLikeCount] = useState(0);
+
   const handleClick1 = () => {
-    M.toast({ html: "좋아요😀" });
+    M.toast({ html: "❤" });
+    setLikeCount1(likeCount1 + 1);
   };
 
   const handleClick2 = () => {
+    M.toast({ html: "좋아요😀" });
+    setLikeCount2(likeCount2 + 1);
+  };
+
+  const handleClick3 = () => {
     M.toast({ html: "싫어요😪" });
+    setDisLikeCount(disLikeCount + 1);
   };
 
   const handleSubmit = async () => {
@@ -94,7 +105,7 @@ function TextResult() {
         <span className="tag">#{mainCharacter}</span>
         {newKeywords.map((keyword, index) => (
           <span className="tag" key={index}>
-            {keyword}
+            #{keyword}
           </span>
         ))}
       </div>
@@ -109,14 +120,19 @@ function TextResult() {
         <>
           <span onClick={handleClick1} className="like-btn31" value="❤">
             <i className="small material-icons">favorite</i>
-          </span>
-          <span onClick={handleClick1} className="like-btn21">
-            <i className="small material-icons">thumb_up</i>
+            <div className="favorite_cnt">{likeCount1}</div>
           </span>
 
-          <span onClick={handleClick2} className="like-btn11">
-            <i className="small material-icons">thumb_down</i>
+          <span onClick={handleClick2} className="like-btn21">
+            <i className="small material-icons">thumb_up</i>
+            <div className="thumb_up_cnt">{likeCount2}</div>
           </span>
+
+          <span onClick={handleClick3} className="like-btn11">
+            <i className="small material-icons">thumb_down</i>
+            <div className="thumb_down_cnt">{disLikeCount}</div>
+          </span>
+
           <div className="story-title">{title}</div>
           <p className="result-story">
             {story}
