@@ -20,22 +20,22 @@
   font-family: "NanumSquareNeoBold";
 }
 
-.image-example {
-  display: flex;
-  justify-content: space-around;
-}
-
-.image-example img {
-  width: 300px;
-  height: 200px;
-  border-radius: 20px;
+.slider-image {
+  width: 100%;
   transition: all 0.2s linear;
-  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
 }
 
-.image-example img:hover {
+.slider-image:hover {
   cursor: pointer;
-  scale: 1.02;
+  transform: scale(1.01);
+  border: none;
+}
+
+/* 기본 slick-dots 스타일 */
+.slick-dots {
+  bottom: -25px; /* 점들의 위치를 조정 */
 }
 
 .input-btn {
@@ -86,12 +86,14 @@
   align-items: center;
   padding: 2% 20%;
 }
+
 .image-preview-container img {
   width: 55%;
   height: 480px;
   border-radius: 20px;
   display: block;
 }
+
 .preview-btn {
   margin-top: 20px;
   display: flex;
@@ -104,6 +106,7 @@
   font-size: 3rem;
   font-weight: bold;
 }
+
 .detail-btn {
   margin-top: 40px;
   text-align: right;
@@ -205,10 +208,78 @@
   opacity: 1;
   cursor: pointer;
 }
-.Image-next-form{
+.Image-next-form {
   position: absolute;
   width: 70%;
   bottom: 5%;
   left: 17%;
   margin-top: -55px;
+}
+
+.Slider {
+  width: 80%;
+  margin: 0% 10%;
+  border: none !important;
+}
+
+/*반응형 웹*/
+@media (max-width: 768px) {
+  .ImageStory,
+  .detail-container,
+  .image-preview-container {
+    padding: 10% 5%;
+  }
+
+  #image-result-page {
+    padding: 10% 5% !important;
+  }
+
+  .slider-image {
+    border-radius: 50px;
+    outline: none; /* 이미지 외곽선 제거 */
+  }
+  .input-btn {
+    margin-top: 15px;
+  }
+
+  /*사진 프리뷰*/
+  .image-preview-container h2 {
+    margin-top: 100px;
+  }
+
+  .image-preview-container img {
+    margin-top: 30px;
+    width: 80%;
+    height: 250px;
+    margin-bottom: 15px;
+  }
+
+  .preview-btn {
+    width: 78%;
+    font-size: 15px;
+  }
+
+  #image-detail-text {
+    margin-bottom: 20px;
+  }
+
+  #image-detail-title {
+    margin-bottom: 40px;
+  }
+
+  /*결과*/
+  .like-btn1,
+  .like-btn2,
+  .like-btn3 {
+    right: 10%;
+  }
+
+  .Image-next-form{
+    width: 92%;
+    left: 5%;
+  }
+
+  .home-btn{
+    right: 7%;
+  }
 }

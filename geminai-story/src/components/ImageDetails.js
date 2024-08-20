@@ -30,9 +30,9 @@ function ImageDetails() {
       >
         SogeumStory
       </div>
-      <div className="detail-title">주인공과 장르를 선택하세요 👩‍🦰</div>
-      <span className="detail-text">이 소설의 주인공은 나?</span>
-      <div className="input-field col s6">
+      <div className="detail-title" id="image-detail-title">주인공과 장르를 선택하세요 👩‍🦰</div>
+      <span className="detail-text" id="image-detail-text">이 소설의 주인공은 나?</span>
+      <div className="input-field col s6" id="image-detail-input">
         <input
           id="mainCharacter"
           type="text"

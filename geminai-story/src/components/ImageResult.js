@@ -107,7 +107,7 @@ function ImageResult() {
     }
   }, [image, mainCharacter, genre]);
   return (
-    <div className="ResultPage">
+    <div className="ResultPage" id="image-result-page">
       <div
         className="site-title"
         onClick={() => {
