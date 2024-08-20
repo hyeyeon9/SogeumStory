@@ -62,3 +62,53 @@
 .input-field .prefix {
   color: #5593f74c !important; /* 기본 아이콘 색상 */
 }
+
+/*반응형 웹*/
+@media (max-width: 768px) {
+  .text-story-title{
+    margin-top: 50px;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+
+  .text-story-span{
+    font-size: 17px;
+  }
+
+  .text-form-container {
+    margin-top: 40px;
+    margin-left: -18px;
+    margin-bottom: 0px;
+  }
+
+  .keyword_btn{
+    position: absolute;
+    right: 9%;
+    bottom: 39%;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .text-story-title{
+    margin-top: 50px;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+
+  .text-story-span{
+    font-size: 17px;
+  }
+
+  .text-form-container {
+    margin-top: 40px;
+    margin-left: -18px;
+    margin-bottom: 0px;
+  }
+
+  .keyword_btn{
+    position: absolute;
+    right: 9%;
+    bottom: 39%;
+  }
+}

@@ -178,3 +178,32 @@
   align-items: center;
   margin-left: -40px;
 }
+
+/*반응형 웹*/
+@media (max-width: 768px) {
+  .ResultPage{
+    padding: 2% 5% !important;
+  }
+  .result-story {
+    width: 92%;
+  }
+  .like-btn11{
+    top: 48%;
+    right: 5%;
+  }
+  .like-btn31{
+    top: 28%;
+    right: 5%;
+  }
+  .like-btn21{
+    top: 38%;
+    right: 5%;
+  }
+  .next-form {
+   margin-left: -12px;
+   margin-top: 0px;
+  }
+  .next-step-btn{
+    right: 3%;
+  }
+}

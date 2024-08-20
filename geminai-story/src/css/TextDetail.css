@@ -44,3 +44,15 @@ button:hover {
   background-color: #d2e3fc !important; /* 마우스를 올렸을 때 색상 */
 }
 
+/*반응형 웹*/
+@media (max-width: 768px) {
+  .DetailsPage{
+    padding: 10% 5%;
+  }
+
+  .detail-title{
+    margin-top: 50px;
+    font-size: 2.5rem !important;
+
+  }
+}

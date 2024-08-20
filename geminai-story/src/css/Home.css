@@ -227,16 +227,15 @@
 
   .card-link {
     margin-bottom: -10px;
-
   }
 
-  .card-link a{
+  .card-link a {
     padding: 2px 5px;
     padding-left: 7px;
     font-size: small;
   }
 
-  .card-link a > i{
+  .card-link a > i {
     margin-left: 7px;
   }
 }
