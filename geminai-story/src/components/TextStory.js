@@ -25,7 +25,7 @@ function App() {
           navigate("/");
         }}
       >
-        SogeumStory
+        GemStory
       </div>
       <div className="text-story-title">
         어떤 키워드로  <br />소설을 작성해볼까요?✍

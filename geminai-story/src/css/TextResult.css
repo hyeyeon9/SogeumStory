@@ -1,13 +1,35 @@
+.BackgroundWrapper {
+  background-image: url('23.jpg'); /* 배경 이미지 경로 */
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* 전체 높이 */
+  width: 100vw; /* 전체 너비 */
+
+  background-color: rgba(255, 255, 255, 0.3); /* 흰색 배경과 70% 투명도 */
+  background-blend-mode: overlay; /* 배경 이미지와 색상이 부드럽게 섞이도록 설정 */
+}
+
+#text-result-site-title{
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-image: url('23.jpg'); /* 배경 이미지 경로 */
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-color: rgba(255, 255, 255, 0.3); /* 흰색 배경과 70% 투명도 */
+  background-blend-mode: overlay; /* 배경 이미지와 색상이 부드럽게 섞이도록 설정 */
+}
 .ResultPage {
   margin: 2% auto; /* 수평 중앙 정렬 */
   max-width: 1280px; /* 원하는 최대 너비로 설정 */
   padding: 20px; /* 패딩 추가 */
   text-align: left; /* 텍스트 정렬을 왼쪽으로 */
-}
-
-#text-page {
   margin-top: 50px;
 }
+
 
 .result-page-title {
   font-size: 3rem;
@@ -100,6 +122,7 @@
   justify-content: center;
   align-items: center;
   font-family: "NanumSquareNeoBold" !important;
+  cursor: pointer;
 }
 
 .like-btn21 {
@@ -111,6 +134,7 @@
   justify-content: center;
   align-items: center;
   font-family: "NanumSquareNeoBold" !important;
+  cursor: pointer;
 }
 
 .like-btn31 {
@@ -122,6 +146,7 @@
   font-family: "NanumSquareNeoBold" !important;
   top: 31%;
   right: 17%;
+  cursor: pointer;
 }
 
 .next-step {
@@ -181,29 +206,29 @@
 
 /*반응형 웹*/
 @media (max-width: 768px) {
-  .ResultPage{
+  .ResultPage {
     padding: 2% 5% !important;
   }
   .result-story {
     width: 92%;
   }
-  .like-btn11{
+  .like-btn11 {
     top: 48%;
     right: 5%;
   }
-  .like-btn31{
+  .like-btn31 {
     top: 28%;
     right: 5%;
   }
-  .like-btn21{
+  .like-btn21 {
     top: 38%;
     right: 5%;
   }
   .next-form {
-   margin-left: -12px;
-   margin-top: 0px;
+    margin-left: -12px;
+    margin-top: 0px;
   }
-  .next-step-btn{
+  .next-step-btn {
     right: 3%;
   }
 }

@@ -54,7 +54,7 @@ function ImageStory() {
           navigate("/");
         }}
       >
-        SogeumStory
+        GemStory
       </div>
       <div className="image-title1">
         사진으로📷 <br></br>

@@ -114,7 +114,7 @@ function ImageResult() {
           navigate("/");
         }}
       >
-        SogeumStory
+       GemStory
       </div>
       <span className=" home-btn" onClick={() => navigate("/")}>
         <i class="medium material-icons">forward</i>

@@ -28,7 +28,7 @@ function ImageDetails() {
           navigate("/");
         }}
       >
-        SogeumStory
+        GemStory
       </div>
       <div className="detail-title" id="image-detail-title">주인공과 장르를 선택하세요 👩‍🦰</div>
       <span className="detail-text" id="image-detail-text">이 소설의 주인공은 나?</span>

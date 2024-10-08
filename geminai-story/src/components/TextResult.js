@@ -88,84 +88,89 @@ function TextResult() {
   }, [keyword, mainCharacter, genre]);
 
   return (
-    <div className="ResultPage" id="text-page">
-      <div
-        className="site-title"
-        onClick={() => {
-          navigate("/");
-        }}
-      >
-        SogeumStory
-      </div>
-      {/* <span className=" home-btn" onClick={() => navigate("/")}>
+    <div className="BackgroundWrapper">
+      {" "}
+      {/* 상위 div 추가 */}
+      <div className="ResultPage" id="text-page">
+        <div
+          id="text-result-site-title"
+          className="site-title"
+          onClick={() => {
+            navigate("/");
+          }}
+        >
+          GemStory
+        </div>
+        {/* <span className=" home-btn" onClick={() => navigate("/")}>
         <i class="medium material-icons">forward</i>
-      </span> */}
-      <div className="tag-box">
-        <span className="tag">#{genre}</span>
-        <span className="tag">#{mainCharacter}</span>
-        {newKeywords.map((keyword, index) => (
-          <span className="tag" key={index}>
-            #{keyword}
-          </span>
-        ))}
-      </div>
-      {/* {loading ? (
-        <h1 className="result-page-title">"생성중 .. 잠시만 기다려!!"</h1>
-      ) : (
-        <></>
-      )} */}
-      {loading ? (
-        <Loading />
-      ) : (
-        <>
-          <span onClick={handleClick1} className="like-btn31" value="❤">
-            <i className="small material-icons">favorite</i>
-            <div className="favorite_cnt">{likeCount1}</div>
-          </span>
+       </span> */}
+        <div className="tag-box">
+          <span className="tag">#{genre}</span>
+          <span className="tag">#{mainCharacter}</span>
+          {newKeywords.map((keyword, index) => (
+            <span className="tag" key={index}>
+              #{keyword}
+            </span>
+          ))}
+        </div>
+        {/* {loading ? (
+          <h1 className="result-page-title">"생성중 .. 잠시만 기다려!!"</h1>
+        ) : (
+          <></>
+        )} */}
+        {loading ? (
+          <Loading />
+        ) : (
+          <>
+            <span onClick={handleClick1} className="like-btn31" value="❤">
+              <i className="small material-icons">favorite</i>
+              <div className="favorite_cnt">{likeCount1}</div>
+            </span>
 
-          <span onClick={handleClick2} className="like-btn21">
-            <i className="small material-icons">thumb_up</i>
-            <div className="thumb_up_cnt">{likeCount2}</div>
-          </span>
+            <span onClick={handleClick2} className="like-btn21">
+              <i className="small material-icons">thumb_up</i>
+              <div className="thumb_up_cnt">{likeCount2}</div>
+            </span>
 
-          <span onClick={handleClick3} className="like-btn11">
-            <i className="small material-icons">thumb_down</i>
-            <div className="thumb_down_cnt">{disLikeCount}</div>
-          </span>
+            <span onClick={handleClick3} className="like-btn11">
+              <i className="small material-icons">thumb_down</i>
+              <div className="thumb_down_cnt">{disLikeCount}</div>
+            </span>
 
-          <div className="story-title">{title}</div>
-          <p className="result-story">
-            {story}
-            {newStory && (
-              <>
-                <p className="new-result-story">{newStory}</p>
-              </>
-            )}
-          </p>
-          <form
-            className="next-form"
-            onSubmit={(e) => {
-              e.preventDefault();
-              handleSubmit();
-            }}
-          >
-            <input
-              value={nextIdea}
-              onChange={(e) => setNextIdea(e.target.value)}
-              className="next-step"
-              type="text"
-              placeholder="추가하고 싶은 아이디어를 입력해주세요!"
-            />
-            <button
-              type="submit"
-              className={`next-step-btn ${nextIdea.trim() ? "active" : ""}`}
+            <div className="story-title">{title}</div>
+            <p className="result-story">
+              {story}
+              {newStory && (
+                <>
+                  <p className="new-result-story">{newStory}</p>
+                </>
+              )}
+            </p>
+            <form
+              className="next-form"
+              onSubmit={(e) => {
+                e.preventDefault();
+                handleSubmit();
+              }}
             >
-              {" "}
-              <FontAwesomeIcon icon={faArrowUp} />
-            </button>
-          </form>
-        </>
-      )}
+              <input
+                value={nextIdea}
+                onChange={(e) => setNextIdea(e.target.value)}
+                className="next-step"
+                type="text"
+                placeholder="추가하고 싶은 아이디어를 입력해주세요!"
+              />
+              <button
+                type="submit"
+                className={`next-step-btn ${nextIdea.trim() ? "active" : ""}`}
+              >
+                {" "}
+                <FontAwesomeIcon icon={faArrowUp} />
+              </button>
+            </form>
+          </>
+        )}
+      </div>
     </div>
   );
 }
