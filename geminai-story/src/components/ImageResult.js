@@ -107,8 +107,10 @@ function ImageResult() {
     }
   }, [image, mainCharacter, genre]);
   return (
+    <div className="BackgroundWrapper">
     <div className="ResultPage" id="image-result-page">
       <div
+        id="text-result-site-title"
         className="site-title"
         onClick={() => {
           navigate("/");
@@ -182,6 +184,7 @@ function ImageResult() {
           </form>
         </>
       )}
+    </div>
     </div>
   );
 }
