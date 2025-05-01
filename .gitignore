@@ -1,0 +1,9 @@
+# 백엔드 보안
+backend/.env
+backend/.venv/
+
+# macOS
+.DS_Store
+
+# 기타
+*.log
