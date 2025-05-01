@@ -1,0 +1,201 @@
+.BackgroundWrapper {
+  background-image: url("23.jpg"); /* 배경 이미지 경로 */
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 93vh; /* 전체 높이 */
+  width: 100vw; /* 전체 너비 */
+
+  background-color: rgba(255, 255, 255, 0.4); /* 흰색 배경과 70% 투명도 */
+  background-blend-mode: overlay; /* 배경 이미지와 색상이 부드럽게 섞이도록 설정 */
+}
+
+#text-result-site-title {
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  padding-left: 30px;
+  padding-top: 18px;
+  background-image: url("23.jpg"); /* 배경 이미지 경로 */
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-color: rgba(255, 255, 255, 0.35); /* 흰색 배경과 70% 투명도 */
+  background-blend-mode: overlay; /* 배경 이미지와 색상이 부드럽게 섞이도록 설정 */
+}
+.ResultPage {
+  margin: 2% auto; /* 수평 중앙 정렬 */
+  max-width: 1280px; /* 원하는 최대 너비로 설정 */
+  padding: 20px; /* 패딩 추가 */
+  text-align: left; /* 텍스트 정렬을 왼쪽으로 */
+  margin-top: 50px;
+}
+
+.result-page-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #33333374;
+  text-align: center;
+}
+
+.story-title {
+  margin-top: 20px;
+  font-size: 3rem;
+  font-family: "JNE-Bareun-TTF-Bold";
+  margin-bottom: 20px;
+}
+
+.result-story {
+  font-family: "JNE-Bareun-TTF-Bold";
+  font-size: 1.1rem;
+  width: 90.5%;
+  height: 440px;
+  /* padding-right: 15px; */
+  overflow-y: scroll;
+  line-height: 1.8;
+  text-align: justify;
+  /* text-indent: 1em; */
+}
+
+
+/* 스크롤 바 전체 영역 */
+.result-story::-webkit-scrollbar {
+  width: 10px; /* 스크롤 바의 너비 */
+}
+
+/* 스크롤 바의 트랙 (배경) */
+.result-story::-webkit-scrollbar-track {
+  background: #2a497100; /* 트랙의 배경색 */
+  border-radius: 15px; /* 트랙의 모서리 둥글게 */
+}
+
+/* 스크롤 바의 핸들 (움직이는 부분) */
+.result-story::-webkit-scrollbar-thumb {
+  background: #a1b8d700; /* 핸들의 색상 */
+  border-radius: 10px; /* 핸들의 모서리 둥글게 */
+}
+
+/* 스크롤 바의 핸들에 마우스를 올렸을 때 */
+.result-story::-webkit-scrollbar-thumb:hover {
+  background: #a1b8d700; /* 마우스를 올렸을 때 핸들의 색상 */
+}
+
+.like-btn11 {
+  position: absolute;
+  top: 51%;
+  right: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "NanumSquareNeoBold" !important;
+  cursor: pointer;
+}
+
+.like-btn21 {
+  position: absolute;
+  top: 41%;
+  right: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "NanumSquareNeoBold" !important;
+  cursor: pointer;
+}
+
+.like-btn31 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "NanumSquareNeoBold" !important;
+  top: 31%;
+  right: 17%;
+  cursor: pointer;
+}
+
+.next-step {
+  all: unset !important; /* 모든 기본 스타일 초기화 */
+  box-sizing: border-box; /* 레이아웃 문제 방지 */
+  background-color: #f3f3f3 !important;
+  padding: 15px 25px !important;
+  width: 88% !important;
+  border-radius: 30px !important;
+}
+
+.next-step::placeholder {
+  color: rgba(0, 0, 0, 0.248);
+  font-weight: 700;
+}
+
+.next-step-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e6e6e6 !important; /* 기본 상태에서의 배경색 */
+  color: white !important; /* 기본 상태에서의 아이콘 색상 */
+  font-size: 20px; /* 아이콘 크기 */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease; /* 부드러운 전환 효과 */
+  cursor: pointer; /* 클릭할 수 있는 버튼으로 표시 */
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.next-step-btn.active {
+  background-color: #343a40 !important; /* 호버 시 배경색 */
+  color: #ffffff !important; /* 호버 시 아이콘 색상 */
+}
+.next-step-btn:hover {
+  background-color: #343a40 !important;
+  color: #ffffff !important;
+}
+/* .next-span{
+  display: block;
+
+} */
+
+.next-form {
+  position: relative;
+  width: 100%;
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -40px;
+}
+
+/*반응형 웹*/
+@media (max-width: 768px) {
+  .ResultPage {
+    padding: 2% 5% !important;
+  }
+  .result-story {
+    width: 92%;
+  }
+  .like-btn11 {
+    top: 48%;
+    right: 5%;
+  }
+  .like-btn31 {
+    top: 28%;
+    right: 5%;
+  }
+  .like-btn21 {
+    top: 38%;
+    right: 5%;
+  }
+  .next-form {
+    margin-left: -12px;
+    margin-top: 0px;
+  }
+  .next-step-btn {
+    right: 3%;
+  }
+}
