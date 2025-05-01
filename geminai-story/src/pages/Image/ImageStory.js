@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import catImage from "../../assets/images/cat.jpg;";
+import catImage from "../../assets/images/cat.jpg";
 import sleepingCat from "../../assets/images/Sleeping_cat.jpg";
 import green from "../../assets/images/EAT_green.jpg";
 

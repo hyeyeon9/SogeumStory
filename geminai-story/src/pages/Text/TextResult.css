@@ -1,12 +1,6 @@
 .BackgroundWrapper {
-  background-image: url("23.jpg"); /* 배경 이미지 경로 */
-  background-repeat: no-repeat;
-  background-position: center;
   min-height: 93vh; /* 전체 높이 */
   width: 100vw; /* 전체 너비 */
-
-  background-color: rgba(255, 255, 255, 0.4); /* 흰색 배경과 70% 투명도 */
-  background-blend-mode: overlay; /* 배경 이미지와 색상이 부드럽게 섞이도록 설정 */
 }
 
 #text-result-site-title {
@@ -15,7 +9,7 @@
   width: 100vw;
   padding-left: 30px;
   padding-top: 18px;
-  background-image: url("23.jpg"); /* 배경 이미지 경로 */
+  background-image: url("../../assets/images/23.jpg"); /* 배경 이미지 경로 */
   background-repeat: no-repeat;
   background-position: center;
 
@@ -56,7 +50,6 @@
   text-align: justify;
   /* text-indent: 1em; */
 }
-
 
 /* 스크롤 바 전체 영역 */
 .result-story::-webkit-scrollbar {

@@ -4,7 +4,15 @@ import Loading from "../../components/Loading";
 import M from "materialize-css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
-import '../Text/TextResult.css'; 
+import "../Text/TextResult.css";
+import bgImage from "../../assets/images/23.jpg";
+
+const pageStyle = {
+  backgroundImage: `url(${bgImage})`,
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "center",
+  backgroundSize: "cover",
+};
 
 function TextResult() {
   const navigate = useNavigate();
@@ -89,7 +97,17 @@ function TextResult() {
   }, [keyword, mainCharacter, genre]);
 
   return (
-    <div className="BackgroundWrapper">
+    <div
+      className="BackgroundWrapper"
+      style={{
+        backgroundImage: `url(${bgImage})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundColor: "rgba(255, 255, 255, 0.4)",
+        backgroundBlendMode: "overlay",
+      }}
+    >
       {" "}
       {/* 상위 div 추가 */}
       <div className="ResultPage" id="text-page">
