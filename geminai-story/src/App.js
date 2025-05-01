@@ -1,20 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import TextStory from "./components/TextStory";
-import ImageStory from "./components/ImageStory";
-import "./css/Home.css";
-import "./css/TextStory.css";
-import "./css/TextDetail.css";
-import "./css/TextResult.css";
-import "./css/ImageHome.css";
+
+import Home from "./pages/Home/Home";
+import TextStory from "./pages/Text/TextStory";
+import TextDetails from "./pages/Text/TextDetails";
+import TextResult from "./pages/Text/TextResult";
+import ImageStory from "./pages/Image/ImageStory";
+import ImagePreview from "./pages/Image/ImagePreview";
+import ImageDetails from "./pages/Image/ImageDetails";
+import ImageResult from "./pages/Image/ImageResult";
+
 import "materialize-css/dist/css/materialize.min.css";
 import "materialize-css/dist/js/materialize.min.js";
-import TextDetails from "./components/TextDetails";
-import TextResult from "./components/TextResult";
-import ImagePreview from "./components/ImagePreview";
-import ImageDetails from "./components/ImageDetails";
-import ImageResult from "./components/ImageResult";
 
 function App() {
   return (
