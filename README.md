@@ -15,6 +15,30 @@
 - Backend : Flask, Flask-CORS
 - AI 연동 : Google Generative AI (Gemini-Pro, Gemini-1.5 Flash)
 
+## ✨ 주요 화면 미리보기
+
+서비스 흐름에 따라 주요 화면을 정리했습니다.
+
+### 🔹 1. 메인 홈 화면
+<img src="./screenshots/home.png" width="500"/>
+
+### 🔹 2. 키워드 기반 이야기 생성
+**1. 키워드 입력 → 2. 주인공 & 장르 선택 → 3. 생성된 이야기 결과**
+<p align="center">
+  <img src="./screenshots/text-keyword.png" width="300"/>
+  <img src="./screenshots/text-character.png" width="300"/>
+  <img src="./screenshots/text-result.png" width="300"/>
+</p>
+
+### 🔹 3. 이미지 기반 이야기 생성
+**1. 사진 선택 → 2. 선택된 이미지 확인 → 3. 이미지 기반 스토리 결과**
+<p align="center">
+  <img src="./screenshots/image-select.png" width="300"/>
+  <img src="./screenshots/image-preview.png" width="300"/>
+  <img src="./screenshots/image-result.png" width="300"/>
+</p>
+
+
 
 ## 프로젝트 회고
 비록 복잡한 기술을 사용한 건 아니지만, 빠르고 재밌게 제미나이를 경험해본 프로젝트 👍
