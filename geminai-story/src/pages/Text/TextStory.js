@@ -27,7 +27,7 @@ function App() {
           navigate("/");
         }}
       >
-        GemStory
+       SogeumStory
       </div>
       <div className="text-story-title">
         어떤 키워드로 <br />

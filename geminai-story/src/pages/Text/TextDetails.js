@@ -34,7 +34,7 @@ function TextDetails() {
           navigate("/");
         }}
       >
-        GemStory
+      SogeumStory
       </div>
       <div className="detail-title">
         좋아요😊

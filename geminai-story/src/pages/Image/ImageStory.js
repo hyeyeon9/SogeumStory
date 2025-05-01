@@ -8,6 +8,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import "../Image/ImageHome.css";
+
+
 function ImageStory() {
   // 슬라이더 설정
   const settings = {
@@ -54,7 +57,7 @@ function ImageStory() {
           navigate("/");
         }}
       >
-        GemStory
+        SogeumStory
       </div>
       <div className="image-title1">
         사진으로📷 <br></br>

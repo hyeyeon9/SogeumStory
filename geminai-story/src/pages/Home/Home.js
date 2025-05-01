@@ -12,7 +12,7 @@ function Home() {
           navigate("/");
         }}
       >
-        GemStory
+        SogeumStory
       </div>
       <div className="homepage-title">
         <span className="geminai">GeminAI</span>와 함께 <br></br>

@@ -7,12 +7,6 @@ import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import "../Text/TextResult.css";
 import bgImage from "../../assets/images/23.jpg";
 
-const pageStyle = {
-  backgroundImage: `url(${bgImage})`,
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "center",
-  backgroundSize: "cover",
-};
 
 function TextResult() {
   const navigate = useNavigate();
@@ -118,7 +112,7 @@ function TextResult() {
             navigate("/");
           }}
         >
-          GemStory
+         SogeumStory
         </div>
         {/* <span className=" home-btn" onClick={() => navigate("/")}>
         <i class="medium material-icons">forward</i>
