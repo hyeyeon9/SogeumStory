@@ -15,7 +15,7 @@ function Home() {
         SogeumStory
       </div>
       <div className="homepage-title">
-        <span className="geminai">GeminAI</span>와 함께 <br></br>
+        <span className="geminai">Gemini</span>와 함께 <br></br>
         자신만의 이야기를 만들어 보세요!
       </div>
 
