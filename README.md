@@ -25,22 +25,23 @@ AI와 협업해 창의적인 콘텐츠 제작 프로젝트를 만들어 보고 �
 ### 🔹 2. 키워드 기반 이야기 생성
 **1. 키워드 입력 → 2. 주인공 & 장르 선택 → 3. 생성된 이야기 결과**
 <p align="center">
-  <img src="./screenshots/text-keyword.png" width="300"/>
-  <img src="./screenshots/text-character.png" width="300"/>
+  <img src="./screenshots/text-keyword.png" width="500"/>
+  <img src="./screenshots/text-character.png" width="500"/>
 </p>
 
-<img src="./screenshots/text-result.png" width="300"/>
+<img src="./screenshots/text-result.png" width="500"/>
 
 ### 🔹 3. 이미지 기반 이야기 생성
 **1. 사진 선택 → 2. 선택된 이미지 확인 → 3. 이미지 기반 스토리 결과**
 <p align="center">
-  <img src="./screenshots/image-select.png" width="300"/>
-  <img src="./screenshots/image-preview.png" width="300"/>
+  <img src="./screenshots/image-select.png" width="500"/>
+  <img src="./screenshots/image-preview.png" width="500"/>
 </p>
-<img src="./screenshots/text-result.png" width="300"/>
+<img src="./screenshots/text-result.png" width="500"/>
 
 
 ### 4 . 🔹 이야기 추가
+<img src="./screenshots/story.png" width="500"/>
 생성된 이야기에 사용자가 추가할 아이디어를 입력하면, Gemini가 이어서 이야기를 작성!
 
 ## 프로젝트 회고
