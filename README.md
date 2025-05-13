@@ -1,5 +1,5 @@
 # SogeumStory
-<img width="1470" alt="스크린샷 2025-05-01 오후 11 42 20" src="https://github.com/user-attachments/assets/09663765-4ed1-479c-a71a-2b895ed40dab" />
+<img width="1470" alt="스크린샷 2025-05-01 오후 11 42 20"  src="./screenshots/home.png" />
 
 ## 프로젝트 개요
 구글의 Generative AI 서비스인 **Gemini** (당시 Bard/Gemini-Pro)를 사용해 <br>
@@ -29,19 +29,19 @@ AI와 협업해 창의적인 콘텐츠 제작 프로젝트를 만들어 보고 �
   <img src="./screenshots/text-character.png" width="500"/>
 </p>
 
-<img src="./screenshots/text-result.png" width="500"/>
+<img src="./screenshots/text-result.png" width="400"/>
 
 ### 🔹 3. 이미지 기반 이야기 생성
 **1. 사진 선택 → 2. 선택된 이미지 확인 → 3. 이미지 기반 스토리 결과**
 <p align="center">
-  <img src="./screenshots/image-select.png" width="500"/>
-  <img src="./screenshots/image-preview.png" width="500"/>
+  <img src="./screenshots/image-select.png" width="400"/>
+  <img src="./screenshots/image-preview.png" width="400"/>
 </p>
-<img src="./screenshots/text-result.png" width="500"/>
+<img src="./screenshots/text-result.png" width="400"/>
 
 
 ### 4 . 🔹 이야기 추가
-<img src="./screenshots/story.png" width="500"/>
+<img src="./screenshots/story.png" width="400"/>
 생성된 이야기에 사용자가 추가할 아이디어를 입력하면, Gemini가 이어서 이야기를 작성!
 
 ## 프로젝트 회고
