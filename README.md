@@ -20,24 +20,26 @@ AI와 협업해 창의적인 콘텐츠 제작 프로젝트를 만들어 보고 �
 서비스 흐름에 따라 주요 화면을 정리했습니다.
 
 ### 🔹 1. 메인 홈 화면
-<img src="./screenshots/home2.png" width="700"/>
+<img width="320" alt="스크린샷 2025-05-20 오후 5 44 02" src="https://github.com/user-attachments/assets/a995d122-1fee-4604-be2e-9bc13297c0fb" />
+
 
 ### 🔹 2. 키워드 기반 이야기 생성
 **1. 키워드 입력 → 2. 주인공 & 장르 선택 → 3. 생성된 이야기 결과**
-  <img src="./screenshots/text-keyword.png" width="700"/>
-  <img src="./screenshots/text-character.png" width="700"/>
-
+<div>
+<img width="320" alt="스크린샷 2025-05-20 오후 5 44 08" src="https://github.com/user-attachments/assets/92fa5dc4-e853-4889-96de-d1427fa43afe" />
+<img width="320" alt="스크린샷 2025-05-20 오후 5 44 40" src="https://github.com/user-attachments/assets/ba9b9f12-9522-4900-a36a-01a28e36b292" />
+<img width="320" alt="스크린샷 2025-05-20 오후 6 22 45" src="https://github.com/user-attachments/assets/bdd13197-0790-414c-a07e-5924fc63e769" />
+</div>
 
 ### 🔹 3. 이미지 기반 이야기 생성
 **1. 사진 선택 → 2. 선택된 이미지 확인 → 3. 이미지 기반 스토리 결과**
-
-  <img src="./screenshots/image-select.png" width="700"/>
-  <img src="./screenshots/image-preview.png" width="700"/>
-
-
+<div>
+<img width="320" alt="스크린샷 2025-05-20 오후 7 50 04" src="https://github.com/user-attachments/assets/74d10cdf-5a2e-4f27-af0f-acc17f8a2261" />
+<img width="320" alt="스크린샷 2025-05-20 오후 7 51 16" src="https://github.com/user-attachments/assets/5cda4642-a0c1-47d6-bb07-efcad8eae729" />
+<img width="320" alt="스크린샷 2025-05-20 오후 8 19 19" src="https://github.com/user-attachments/assets/2d5cde12-bbf3-4466-b18b-a646100d3117" />
+</div>
 
 ### 4 . 🔹 이야기 결과/추가
-<img src="./screenshots/story.png" width="700"/>
 - 생성된 이야기에 사용자가 추가할 아이디어를 입력하면, Gemini가 이어서 이야기를 작성 가능
 
 ## 프로젝트 회고
